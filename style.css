@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:linear-gradient(to right, rgb(162, 76, 194) , rgb(72, 141, 181));
+}
+
+.container{
+    width: 700px;
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #ffffff8e;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+}
+
+#title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#description{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#survey-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group{
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.form-control{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 0.5px solid gray;
+}
+
+#tech-label{
+    margin: 10px 0;
+}
+
+#learning-pref{
+    margin: 10px 0;
+}
+.input-checkbox, .input-radio{
+    margin: 10px 5px 10px 0px;
+}
+
+textarea{
+    margin: 10px 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 15px;
+}
+
+.submit-button{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    outline: none;
+}
