@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title" class="title">
+                Programmers Voice! Tell us your choice!
+            </h1>
+            <p id="description" class="description">
+                We love to know about which technology and tools software engineers are using world wide! Each and every
+                Developers opinions are very precious to us!
+            </p>
+        </header>
+
+        <form action="" id="survey-form" class="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="example@xyz.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" name="number" id="number" class="form-control" min="10" max="99" placeholder="age">
+            </div>
+
+            <div class="form-group">
+                <label for="pro-lang" id="pro-lang-label" class="pro-lang">Programming language you are expert
+                    at</label>
+                <select name="pro=lang" class="form-control" id="dropdown">
+                    <option value="" disabled>Select From list</option>
+                    <option value="c++">C Plus Plus</option>
+                    <option value="c#">C Hash</option>
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="php">Php</option>
+                    <option value="ruby">Ruby on Rails</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tech" id="tech-label">Latest technology experience</label>
+                <label for="tech">
+                    <input type="checkbox" value="flutter" name="tech" class="input-checkbox" id="ic1">
+                    Flutter</label>
+                <label for="tech">
+                    <input type="checkbox" value="github" name="tech" class="input-checkbox" id="ic2">
+                    GitHub</label>
+                <label for="tech">
+                    <input type="checkbox" value="nodejs" name="tech" class="input-checkbox" id="ic3">
+                    NodeJs</label>
+                <label for="tech">
+                    <input type="checkbox" value="devops" name="tech" class="input-checkbox" id="ic4">
+                    DevOps</label>
+                <label for="tech">
+                    <input type="checkbox" value="react" name="tech" class="input-checkbox" id="ic5">
+                    React</label>
+                <label for="tech">
+                    <input type="checkbox" value="angular" name="tech" class="input-checkbox" id="ic6">
+                    Angular</label>
+            </div>
+
+            <div class="form-group">
+                <label for="radio" id="learning-pref"> What type of larning you preferd..? </label>
+                <label>
+                    <input name="user-recommend" value="both" type="radio" class="input-radio" checked /> Both
+                </label>
+                <label>
+                    <input name="user-recommend" value="online" type="radio" class="input-radio" /> Online
+                </label>
+
+                <label>
+                    <input name="user-recommend" value="offline" type="radio" class="input-radio" /> Offline
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
